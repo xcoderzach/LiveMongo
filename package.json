@@ -1,0 +1,16 @@
+{ "name": "LiveMongo"
+, "description": "A Realtime MongoDB API implementation"
+, "version": "0.0.1"
+, "author": "Zach Smith <x.coder.zach@gmail.com>"
+, "dependencies": 
+  { "mongolian": "0.1.x"
+  , "underscore": "1.2.3" }
+, "repository": 
+  { "type": "git"
+  , "url": "https://github.com/xcoderzach/LiveDocument.git" }
+, "devDependencies": 
+  { "mocha": "0.5.x"
+  , "should": "0.3.x" 
+  }
+, "license": "MIT"
+, "engine": "node >= 0.6.x" }
