@@ -45,3 +45,22 @@ The `finished` callback will be called when remote documents have been loaded.
 
   See the `Cursor` methods to see other ways of getting notification changes,
 other than the finished callback.
+
+##ObjectId
+
+  ObjectIds are generated on the client immediately after a document is
+inserted.  In the future ObjectIds will be partially generated on the server
+and partially on the client.  This will allow for server-side valiation of
+ObjectIds.
+
+###ObjectId
+####ObjectId(id)
+
+  The ObjectId constructor takes in a string, currently only hex strings are
+supported. If no id is provided one is generated randomly.
+
+
+###toString
+####ObjectId.toString()
+
+  Returns the hex value of an ObjectId
